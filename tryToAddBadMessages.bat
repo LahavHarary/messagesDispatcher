@@ -1,0 +1,1 @@
+powershell .\tryToAddBadMessages.ps1

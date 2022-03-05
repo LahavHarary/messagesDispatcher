@@ -1,0 +1,7 @@
+invoke-webrequest -method Post -uri "http://localhost:3000/api/messages" -body '{"msgSender":"a","msgSubject":"","msgBody":"1"}' -ContentType 'application/json'
+invoke-webrequest -method Post -uri "http://localhost:3000/api/messages" -body '{"msgSender":"","msgSubject":"2","msgBody":"a"}' -ContentType 'application/json'
+invoke-webrequest -method Post -uri "http://localhost:3000/api/messages" -body '{"msgSender":"papa","msgSubject":"apa","msgBody":""}' -ContentType 'application/json'
+invoke-webrequest -method Post -uri "http://localhost:3000/api/messages" -body '{"msgSender":"pa","msgSubject":"","msgBody":"hello world"}' -ContentType 'application/json'
+invoke-webrequest -method Post -uri "http://localhost:3000/api/messages" -body '{"msgSender":"","msgSubject":"i","msgBody":"heyyy"}' -ContentType 'application/json'
+invoke-webrequest -method Post -uri "http://localhost:3000/api/messages" -body '{"msgSender":"hello","msgSubject":"hello","msgBody":""}' -ContentType 'application/json'
+invoke-webrequest -method Post -uri "http://localhost:3000/api/messages" -body '{"msgSender":"s","msgSubject":"e","msgBody":""}' -ContentType 'application/json'

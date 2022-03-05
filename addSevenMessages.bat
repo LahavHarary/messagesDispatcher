@@ -1,0 +1,1 @@
+powershell .\addSevenMessages.ps1

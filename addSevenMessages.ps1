@@ -1,0 +1,7 @@
+invoke-webrequest -method Post -uri "http://localhost:3000/api/messages" -body '{"msgSender":"firstSender","msgSubject":"lets check if strings are palindroms","msgBody":"I am"}' -ContentType 'application/json'
+invoke-webrequest -method Post -uri "http://localhost:3000/api/messages" -body '{"msgSender":"secondSender","msgSubject":"lets check if strings are palindroms","msgBody":"Amazing"}' -ContentType 'application/json'
+invoke-webrequest -method Post -uri "http://localhost:3000/api/messages" -body '{"msgSender":"thirdSender","msgSubject":"lets check if strings are palindroms","msgBody":"You"}' -ContentType 'application/json'
+invoke-webrequest -method Post -uri "http://localhost:3000/api/messages" -body '{"msgSender":"fourthSender","msgSubject":"lets check if strings are palindroms","msgBody":"Should"}' -ContentType 'application/json'
+invoke-webrequest -method Post -uri "http://localhost:3000/api/messages" -body '{"msgSender":"fifthSender","msgSubject":"lets check if strings are palindroms","msgBody":"Definitely"}' -ContentType 'application/json'
+invoke-webrequest -method Post -uri "http://localhost:3000/api/messages" -body '{"msgSender":"sixthSender","msgSubject":"lets check if strings are palindroms","msgBody":"Hire"}' -ContentType 'application/json'
+invoke-webrequest -method Post -uri "http://localhost:3000/api/messages" -body '{"msgSender":"sixthSender","msgSubject":"lets check if strings are palindroms","msgBody":"Me!"}' -ContentType 'application/json'

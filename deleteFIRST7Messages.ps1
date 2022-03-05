@@ -1,0 +1,7 @@
+invoke-webrequest -method Delete -uri "http://localhost:3000/api/messages/1"
+invoke-webrequest -method Delete -uri "http://localhost:3000/api/messages/2"
+invoke-webrequest -method Delete -uri "http://localhost:3000/api/messages/3"
+invoke-webrequest -method Delete -uri "http://localhost:3000/api/messages/4"
+invoke-webrequest -method Delete -uri "http://localhost:3000/api/messages/5"
+invoke-webrequest -method Delete -uri "http://localhost:3000/api/messages/6"
+invoke-webrequest -method Delete -uri "http://localhost:3000/api/messages/7"

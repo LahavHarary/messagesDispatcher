@@ -1,0 +1,1 @@
+powershell .\updateFIRST7Messages.ps1

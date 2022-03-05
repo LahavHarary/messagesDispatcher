@@ -1,0 +1,1 @@
+powershell .\deleteFIRST7Messages.ps1
