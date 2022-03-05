@@ -7,8 +7,8 @@ into an array and will let the user know if the message that was given to him is
 
 1. to run the app on your enviorment you should have node.js and express installed.
 2. nodemon is optional.
-3. open the file on webstorm / any other idea which you are familier with. 
-4. in the terminal write: nodemon MessageDispatcher.js / run the code in other way if you don't have nodemon on your machine.
+3. open the file on webstorm / any other ide which you are familier with. 
+4. in the terminal write: nodemon MessageDispatcher.js / run the code in other way (if you don't have nodemon on your machine).
    after running the application you can now go to one of the following adresses:
    <br />
    a. http://localhost:3000/  - landing page
