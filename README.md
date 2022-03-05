@@ -13,7 +13,7 @@ to take a look :)
 4. in the terminal write: nodemon MessageDispatcher.js / run the code in other way (if you don't have nodemon on your machine).
    after running the application you can now go to one of the following adresses:
    </br>
-   a. http://localhost:3000/  - landing page
++ a. http://localhost:3000/  - landing page
    </br>
    b. http://localhost:3000/api - api documentation
    </br>
