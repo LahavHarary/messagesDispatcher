@@ -25,14 +25,18 @@ Things that you can do with the API:
 (please note that requests that requiere parameters are expected to receive those in JSON foramt only):
 
 POST requests - adds a new message to the array of messages.
+<br />
 send to http://localhost:3000/api/messages/ with the following parameters:
-msgSender - can't contain numbers and has to be non-empty
-msgSubject - can't contain numbers and has to be non-empty
-msgBody - has to have at least a single character (or more)
+<br />
+1. msgSender - can't contain numbers and has to be non-empty
+2. msgSubject - can't contain numbers and has to be non-empty 
+3. msgBody - has to have at least a single character (or more)
 
 GET requests -retrive a message from the api (single message / every message).
+<br />
 in order to get a single message with specific id:
 send to http://localhost:3000/api/messages/ID with the ID of the message
+<br />
 in order to get all the messages:
 send to http://localhost:3000/api/messages/
 
