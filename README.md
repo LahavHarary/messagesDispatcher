@@ -7,7 +7,7 @@ into an array and will let the user know if the message that was given to him is
 a file named classDiagram.png is attached to the project (contains the class diagram that I prepared for making messagesDispatcher) - feel free
 to take a look :)
 
-1. to run the app on your enviorment you should have node.js and express installed.
+1. to run the app on your enviorment you should have node.js installed
 2. nodemon is optional.
 3. in the terminal write: nodemon MessageDispatcher.js / npm start with the path of the folder.
    after running the application you can now go to one of the following adresses:
