@@ -36,7 +36,7 @@ send to http://localhost:3000/api/messages/ with the following parameters:
 
 GET requests - retrive a message from the api (single message / every message).
 <br />
-a. in order to get a single message with specific id:
++  a. in order to get a single message with specific id:
 <br />
    send to http://localhost:3000/api/messages/ID with the ID of the message
 <br />
