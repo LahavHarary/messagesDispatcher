@@ -2,7 +2,7 @@
 
 Welcome to messagesDispatcher. 
 
-The task that was given me consisted of creaing an api from scratch, the api should be able to save messages
+The task that was given to me consisted of creating an api from scratch, the api should be able to save messages
 into an array and will let the user know if the message that was given to him is a palindrome or not.
 a file named classDiagram.png is attached to the project (contains the class diagram that I prepared for making messagesDispatcher) - feel free
 to take a look :)
