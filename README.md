@@ -15,8 +15,8 @@ to take a look :)
 + a. http://localhost:3000/  - landing page
 + b. http://localhost:3000/api - api documentation
 + c. http://localhost:3000/api/messages - page where messages will appear.
+<br />
    Please note that at the beggining there are not messages and you will need to post some in order to see them (read documentation)
-  
 + d. http://localhost:3000/api/messages/:id - specific message (u will need to write the real message id instead of ":id" in the url.
 
 
