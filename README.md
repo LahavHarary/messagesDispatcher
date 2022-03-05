@@ -54,14 +54,11 @@ DELETE requests - deletes existing message according to id.
 </br>
 send to http://localhost:3000/api/messages/ID with the ID of the message
 
-Few scripts that I prepared for making the check easier for you (please note that the scripts format is bat which means it is good for windows os only):
+Few scripts that I prepared for making the check easier for you 
+(please note that the scripts format is bat which means it is good for windows os only):
 </br>
-1.addSevenMessages.bat : Adds 7 prepared messages to the array of messages
-</br>
-2.updateSevenMessages.bat : Updates the first seven messages (according to id 1-7)
-</br>
-3.deleteSevenMessages.bat : Deletes the first seven messages (according to id 1-7)
-</br>
+1. addSevenMessages.bat : Adds 7 prepared messages to the array of messages
+2. updateSevenMessages.bat : Updates the first seven messages (according to id 1-7)
+3. 3.deleteSevenMessages.bat : Deletes the first seven messages (according to id 1-7)
 4. tryToAddBadMessages.bat : has 7 seven messages with errors, if you try to send thoserequests they will not be added to the message array.
-</br>
 5. feel free to use your imagination and use postman / shell to send requests to the api.
