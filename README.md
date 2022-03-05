@@ -19,6 +19,7 @@ to take a look :)
 
 
 Things that you can do with the API:
+<br />
 **please note that requests that requiere parameters are expected to receive those in JSON foramt only**
 
 POST requests - adds a new message to the array of messages.
