@@ -9,8 +9,7 @@ to take a look :)
 
 1. to run the app on your enviorment you should have node.js and express installed.
 2. nodemon is optional.
-3. open the file on webstorm / any other ide which you are familier with. 
-4. in the terminal write: nodemon MessageDispatcher.js / run the code in other way (if you don't have nodemon on your machine).
+3. in the terminal write: nodemon MessageDispatcher.js / npm start with the path of the folder.
    after running the application you can now go to one of the following adresses:
 + a. http://localhost:3000/  - landing page
 + b. http://localhost:3000/api - api documentation
@@ -20,7 +19,7 @@ to take a look :)
 
 
 Things that you can do with the API:
-(please note that requests that requiere parameters are expected to receive those in JSON foramt only):
+**please note that requests that requiere parameters are expected to receive those in JSON foramt only**
 
 POST requests - adds a new message to the array of messages.
 <br />
