@@ -36,13 +36,13 @@ send to http://localhost:3000/api/messages/ with the following parameters:
 
 GET requests - retrive a message from the api (single message / every message).
 <br />
-a. in order to get a single message with specific id:
+   a. in order to get a single message with specific id:
 </br>
-send to http://localhost:3000/api/messages/ID with the ID of the message
+   send to http://localhost:3000/api/messages/ID with the ID of the message
 <br />
-b. in order to get all the messages:
+   b. in order to get all the messages:
 </br>
-send to http://localhost:3000/api/messages/
+   send to http://localhost:3000/api/messages/
 
 PUT requests - changes existing message according to id.
 </br>
