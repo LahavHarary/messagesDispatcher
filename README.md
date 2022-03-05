@@ -35,13 +35,13 @@ send to http://localhost:3000/api/messages/ with the following parameters:
 3. msgBody - has to have at least a single character (or more)
 
 GET requests - retrive a message from the api (single message / every message).
-<br />
+   <br />
    a. in order to get a single message with specific id:
-</br>
+   </br>
    send to http://localhost:3000/api/messages/ID with the ID of the message
-<br />
+   <br />
    b. in order to get all the messages:
-</br>
+   </br>
    send to http://localhost:3000/api/messages/
 
 PUT requests - changes existing message according to id.
