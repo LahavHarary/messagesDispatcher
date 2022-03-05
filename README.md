@@ -20,3 +20,34 @@ into an array and will let the user know if the message that was given to him is
    <br />
    d. http://localhost:3000/api/messages/:id - specific message (u will need to write the real message id instead of ":id" in the url.
 
+
+Things that you can do with the API:
+(please note that requests that requiere parameters are expected to receive those in JSON foramt only):
+
+POST requests - adds a new message to the array of messages.
+send to http://localhost:3000/api/messages/ with the following parameters:
+msgSender - can't contain numbers and has to be non-empty
+msgSubject - can't contain numbers and has to be non-empty
+msgBody - has to have at least a single character (or more)
+
+GET requests -retrive a message from the api (single message / every message).
+in order to get a single message with specific id:
+send to http://localhost:3000/api/messages/ID with the ID of the message
+in order to get all the messages:
+send to http://localhost:3000/api/messages/
+
+PUT requests - changes existing message according to id.
+send to http://localhost:3000/api/messages/ID with the ID of the message with the following parameters:
+msgSender - can't contain numbers and has to be non-empty
+msgSubject - can't contain numbers and has to be non-empty
+msgBody - has to have at least a single character (or more)
+
+DELETE requests - deletes existing message according to id.
+send to http://localhost:3000/api/messages/ID with the ID of the message
+
+Few scripts that I prepared for making the check easier for you (please note that the scripts format is bat which means it is good for windows os only):
+1.addSevenMessages.bat : Adds 7 prepared messages to the array of messages
+2.updateSevenMessages.bat : Updates the first seven messages (according to id 1-7)
+3.deleteSevenMessages.bat : Deletes the first seven messages (according to id 1-7)
+4. tryToAddBadMessages.bat : has 7 seven messages with errors, if you try to send thoserequests they will not be added to the message array.
+5. feel free to use your imagination and use postman / shell to send requests to the api.
