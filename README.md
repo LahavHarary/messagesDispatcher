@@ -34,19 +34,21 @@ send to http://localhost:3000/api/messages/ with the following parameters:
 
 GET requests - retrive a message from the api (single message / every message).
 <br />
-in order to get a single message with specific id:
+a. in order to get a single message with specific id:
 </br>
 send to http://localhost:3000/api/messages/ID with the ID of the message
 <br />
-in order to get all the messages:
+b. in order to get all the messages:
 </br>
 send to http://localhost:3000/api/messages/
 
 PUT requests - changes existing message according to id.
+</br>
 send to http://localhost:3000/api/messages/ID with the ID of the message with the following parameters:
-msgSender - can't contain numbers and has to be non-empty
-msgSubject - can't contain numbers and has to be non-empty
-msgBody - has to have at least a single character (or more)
+</br>
+1. msgSender - can't contain numbers and has to be non-empty
+2. msgSubject - can't contain numbers and has to be non-empty
+3. msgBody - has to have at least a single character (or more)
 
 DELETE requests - deletes existing message according to id.
 send to http://localhost:3000/api/messages/ID with the ID of the message
